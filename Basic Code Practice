@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>Switch Practice</title>
+	</head>
+	<body>
+    <?php
+      $i = rand(0,10);
+      switch($i):
+      case 0:
+        echo "That's less than 1!";
+        break;
+      case 1:
+      case 2:
+      case 3:
+        echo "Somewhere between 1 - 3";
+        break;
+      case 4: 
+      case 5:
+      case 6: 
+        echo "Somewhere between 4 - 6";
+        break;
+      case 7:
+      case 8: 
+      case 9:
+        echo "Somewhere between 7 - 9.";
+        break;
+      default;
+       echo "Must have been 10";
+     endswitch;
+    ?>
+    </body>
+</html>
